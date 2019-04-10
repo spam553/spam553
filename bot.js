@@ -57,7 +57,7 @@ client.on('message', message => { // لا تغير شئ عشان ما تخرب �
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
+      for(let x = 0; x < 20000; x++) {
         message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - خالد كلب**[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -71,7 +71,7 @@ client2.on('message', message => { // لا تغير شئ عشان ما تخرب 
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
+      for(let x = 0; x < 20000; x++) {
         message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - خالد كلب **[ " ${x} " ]`)
           .then(m => {
             count++;
